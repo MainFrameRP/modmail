@@ -45,7 +45,7 @@
     ]
   },
   "mention": {
-    "default": "@here",
+    "default": "@Moderator",
     "description": "This is the message above user information for when a new thread is created in the channel.",
     "examples": [
       "`{prefix}config set mention Yo~ Here's a new thread for ya!`",
@@ -57,7 +57,7 @@
     ]
   },
   "main_color": {
-    "default": "Discord Blurple [#7289DA](https://placehold.it/100/7289da?text=+)",
+    "default": "Discord Blurple [#0099ff](https://placehold.it/100/7289da?text=+)",
     "description": "This is the main color for Modmail (help/about/ping embed messages, subscribe, move, etc.).",
     "examples": [
       "`{prefix}config set main_color olive green`",
@@ -235,7 +235,7 @@
     ]
   },
   "sent_emoji": {
-    "default": "✅",
+    "default": "🚀",
     "description": "This is the emoji added to the message when when a Modmail action is invoked successfully (ie. DM Modmail, edit message, etc.).",
     "examples": [
       "`{prefix}config set sent_emoji ✨`"
@@ -369,7 +369,7 @@
     ]
   },
   "thread_creation_response": {
-    "default": "\"The staff team will get back to you as soon as possible.\"",
+    "default": "\"Thank you for contacting the MainFrame Support Team. We value your report, please give us some time to evaluate your report and we will get back to you as soon as possible.\"",
     "description": "This is the message embed content sent to the recipient upon the creation of a new thread.",
     "examples": [
       "`{prefix}config set thread_creation_response You will be contacted shortly.`"
@@ -446,7 +446,7 @@
     ]
   },
   "thread_creation_title": {
-    "default": "\"Thread Created\"",
+    "default": "\"MainFrame Ticket Created\"",
     "description": "This is the message embed title sent to the recipient upon the creation of a new thread.",
     "examples": [
       "`{prefix}config set thread_creation_title Hello!`"
@@ -476,7 +476,7 @@
     ]
   },
   "thread_close_response": {
-    "default": "\"{{closer.mention}} has closed this Modmail thread\"",
+    "default": "\"A MainFrame Support member has closed this ticket. Thank you for contacting MainFrame!\"",
     "description": "This is the message embed content sent to the recipient upon the closure of a thread.",
     "examples": [
       "`{prefix}config set thread_close_response Your message is appreciated!`"
@@ -490,7 +490,7 @@
     ]
   },
   "thread_self_close_response": {
-    "default": "\"You have closed this Modmail thread.\"",
+    "default": "\"A MainFrame Support member has closed this ticket. Thank you for contacting MainFrame!\"",
     "description": "This is the message embed content sent to the recipient upon the closure of a their own thread.",
     "examples": [
       "`{prefix}config set thread_self_close_response You have closed your own thread...`"
@@ -504,7 +504,7 @@
     ]
   },
   "thread_move_title": {
-    "default": "Thread Moved",
+    "default": "Ticket Moved",
     "description": "The title of the message embed when a thread is moved.",
     "examples": [
       "`{prefix}config set thread_move_title Thread transferred to another channel!`"
@@ -514,7 +514,7 @@
     ]
   },
   "thread_move_notify": {
-    "default": "No",
+    "default": "Yes",
     "description": "Notify the recipient if the thread was moved.",
     "examples": [
       "`{prefix}config set thread_move_notify yes`",
@@ -536,7 +536,7 @@
     ]
   },
   "thread_move_response": {
-    "default": "This thread has been moved.",
+    "default": "This thread has been moved to its proper category. Hang tight while we sort your ticket out!",
     "description": "This is the message to display to the user when the thread is moved.",
     "examples": [
       "`{prefix}config set thread_move_response This thread has been moved to another category for review!`"
@@ -677,7 +677,7 @@
     ]
   },
   "anon_username": {
-    "default": "Fallback on `mod_tag`",
+    "default": "\"MainFrame Support\"",
     "description": "This is the name in the “author” section of the embeds sent by anonymous moderators in the recipient DM.",
     "examples": [
       "`{prefix}config set anon_username Incognito Mod`"
@@ -699,7 +699,7 @@
     "image": "https://i.imgur.com/SKOC42Z.png"
   },
   "anon_tag": {
-    "default": "\"Response\"",
+    "default": "\"Staff Response\"",
     "description": "This is the name tag in the “footer” section of the embeds sent by anonymous moderators in the recipient DM.",
     "examples": [
       "`{prefix}config set anon_tag Support Agent`"
@@ -748,7 +748,7 @@
     ]
   },
   "close_on_leave_reason": {
-    "default": "The recipient has left the server.",
+    "default": "The has taken a flight out of MainFrame RP like a bitch.",
     "description": "Reason for closing the thread once member leaves",
     "examples":[
       "`{prefix}config set close_on_leave_reason Member left`"
